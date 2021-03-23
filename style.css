@@ -1,0 +1,307 @@
+@font-face {
+    font-family:"Format 1452";  
+    src: url("./assets/Format_1452.woff2") format("woff2");
+  }
+
+  body {
+    background: linear-gradient(180deg, #041b49, #5f0f5c, #1c7792);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+
+.title {
+    font-family: "format 1452";
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.title:hover {
+    color: orangered;
+    font-size: 50px;
+}
+
+a:link {
+    color: white;
+    decoration: none;
+  }
+ 
+  a:hover {
+      color:orangered;
+  }
+  
+  a:visited {
+      color: white;
+  }
+
+
+.circle-txt {
+    position: absolute;
+    bottom: 50%;
+    width: 10%;
+    text-align: center;
+}
+
+.res-circle {
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #041b49, #5f0f5c, #1c7792);
+
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+    background-size: 10% 20%;
+
+    line-height: 1;
+    position: relative;
+    top: 20%;
+    left: 10%;
+  }
+
+  .res-circle::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+   
+  .circle-txt {
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    text-align: center;
+   
+    font-family: "format 1452";
+    color: white;
+    font-size: 20px;
+
+  }
+
+
+
+
+
+
+
+  .circle-txt2 {
+    position: absolute;
+    bottom: 50%;
+    width: 10%;
+    text-align: center;
+}
+
+.res-circle2 {
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(224deg, #f56502, #f5a502, #f5d002);
+    background-size:30% 100%;
+
+    -webkit-animation: Animation2 4s ease infinite;
+    -moz-animation: Animation2 4s ease infinite;
+    animation: Animation2 4s ease infinite;
+
+    line-height: 1;
+    position: relative;
+    top: 20%;
+    left: 70%;
+  }
+
+  .res-circle2::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+   
+  .circle-txt2 {
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    text-align: center;
+   
+    font-family: "format 1452";
+    color: white;
+    font-size: 20px;
+  }
+
+
+
+
+  
+  .circle-txt3 {
+    position: absolute;
+    bottom: 50%;
+    width: 10%;
+    text-align: center;
+}
+
+.res-circle3 {
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #041b49, #5f0f5c, #1c7792);
+
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+    background-size: 50% 60%;
+
+    line-height: 1;
+    position: relative;
+    top: 40%;
+    left: 40%;
+  }
+
+  .res-circle3::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+   
+  .circle-txt3 {
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    text-align: center;
+   
+    font-family: "format 1452";
+    color: white;
+    font-size: 20px;
+  }
+
+
+
+
+  .circle-txt4 {
+    position: absolute;
+    bottom: 50%;
+    width: 10%;
+    text-align: center;
+}
+
+.res-circle4 {
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(224deg, #f56502, #f5a502, #f5d002);
+    background-size: 40% 60%;
+
+    -webkit-animation: Animation2 4s ease infinite;
+    -moz-animation: Animation2 4s ease infinite;
+    animation: Animation2 4s ease infinite;
+
+    line-height: 1;
+    position: relative;
+    top: 60%;
+    left: 10%;
+  }
+
+  .res-circle4::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+   
+  .circle-txt4 {
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    text-align: center;
+   
+    font-family: "format 1452";
+    color: white;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+  .circle-txt5 {
+    position: absolute;
+    bottom: 50%;
+    width: 10%;
+    text-align: center;
+}
+
+.res-circle5 {
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #041b49, #5f0f5c, #1c7792);
+
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+    background-size: 30% 10%;
+
+    line-height: 1;
+    position: relative;
+    top: 80%;
+    left: 40%;
+  }
+
+  .res-circle5::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+   
+  .circle-txt5 {
+    position: absolute;
+    bottom: 35%;
+    width: 100%;
+    text-align: center;
+   
+    font-family: "format 1452";
+    color: white;
+    font-size: 20px;
+  }
+
+
+
+
+
+  .orange:hover {
+    color: orangered;
+    font-size: 50px;
+}
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+
+@-webkit-keyframes Animation2 {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-moz-keyframes Animation2 {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@keyframes Animation2 { 
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat996.cur), auto !important;} /* End https://www.cursors-4u.com */
